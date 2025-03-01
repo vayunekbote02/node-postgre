@@ -3,7 +3,7 @@ const router = express.Router();
 
 // Define a simple route
 router.get("/", (req, res) => {
-  res.send("Welcome to the Kanban API");
+  res.send("Hello World");
 });
 
 module.exports = router;
